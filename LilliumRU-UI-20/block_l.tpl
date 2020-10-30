@@ -1,3 +1,4 @@
+<!-- Версия файла от 2.0-001-020201030-14.1-KDE Breeze 5.20 -->  
 <!-- блок --> 
 <div class="blockleft">
 <div class="blockleft-title">[group=5]Вход[/group] [group=1,2,3,4]Профиль[/group]</div>

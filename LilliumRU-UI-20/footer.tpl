@@ -1,3 +1,4 @@
+<!-- Версия файла от 2.0-(001-002)-(020201029-20201030)-14.1-KDE Breeze 5.20 -->  
 <div id="footer-cont">   
 <table id="footer-table">
 <tbody>
@@ -18,8 +19,10 @@
 <a class="button-footer" title="discord" href="https://discord.gg/E7RGuEY"><img src="http://files.lillium.ru/image/social/discord.png" width="30px"></a>       
 <a class="button-footer" title="patreon" href="https://www.patreon.com/lilliumru"><img src="http://files.lillium.ru/image/social/patrion.png" width="30px"></a>   
 <a class="button-footer" title="GitHUB" href="https://github.com/LilliumRU"><img src="http://files.lillium.ru/image/social/github.png" width="30px"></a>     
+<a class="button-footer" title="KDE" href="https://invent.kde.org/lilliumru"><img src="https://invent.kde.org/uploads/-/system/appearance/header_logo/1/kde-logo-white-blue-128x128.png" width="30px"></a>     
 <a class="button-footer" title="Steam" href="https://steamcommunity.com/groups/lilliumruguild"><img src="http://files.lillium.ru/image/social/steam.png" width="30px"></a>     
 
+    
     
     
     

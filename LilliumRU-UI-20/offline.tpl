@@ -1,3 +1,4 @@
+<!-- Версия файла от 2.0-001-020201030-14.1-KDE Breeze 5.20 -->  
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
 <link rel="shortcut icon" href="http://files.lillium.ru/image/favicon/favicon-32x32.png" /> 

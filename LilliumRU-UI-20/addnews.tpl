@@ -1,3 +1,4 @@
+<!-- Версия файла от 2.0-001-020201030-14.1-KDE Breeze 5.20 -->  
 <div id="addnews">
 <div id="addnews-title">Добавить новость</div> 
 <div id="addnews-cont">   

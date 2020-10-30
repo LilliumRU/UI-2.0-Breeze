@@ -1,3 +1,4 @@
+<!-- Версия файла от 2.0-001-020201030-14.1-KDE Breeze 5.20 -->  
 <table style="text-align: left; width: 1280px;" cellpadding="2" cellspacing="2">
 <tbody>   
 <tr>

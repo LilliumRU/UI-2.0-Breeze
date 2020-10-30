@@ -1,3 +1,4 @@
+<!-- Версия файла от 2.0-001-020201030-14.1-KDE Breeze 5.20 -->  
 [not-group=5]
 <div id="login">
 <center><a href="{profile-link}"><img src="{foto}" alt="{login}" style="max-width:190px;" /></a></center>
