@@ -127,19 +127,19 @@
 	.ui-menu .ui-menu-item a.ui-state-active { font-weight: normal; margin: -1px; border: 1px solid #a7a7a7; color: #4e4e4e; font-weight: bold; }
 /*---Подсветка кода в теге [code]---*/
 pre code { display: block; padding: 0.5em; background: #f9fafa; border: 1px solid #dce7e7; overflow:auto; white-space: pre; }
-	pre .comment, pre .template_comment, pre .diff .header, pre .doctype, pre .lisp .string, pre .javadoc { padding: 0; margin: 0; border:none; box-shadow: none; background-color: inherit; color: #93a1a1; font-style: italic; }
-	pre .keyword, pre .css .rule .keyword, pre .winutils, pre .javascript .title, pre .method, pre .addition, pre .css .tag, pre .lisp .title { color: #859900; }
-	pre .number, pre .command, pre .string, pre .tag .value, pre .phpdoc, pre .tex .formula, pre .regexp, pre .hexcolor { color: #2aa198; }
-	pre .title, pre .localvars, pre .function .title, pre .chunk, pre .decorator,
-	pre .builtin, pre .built_in, pre .lisp .title, pre .identifier, pre .title .keymethods, pre .id { color: #268bd2; }
-	pre .tag .title, pre .rules .property, pre .django .tag .keyword { font-weight: bold;font-size: 1.08em !important;  }
-	pre .attribute, pre .variable, pre .instancevar, pre .lisp .body, pre .smalltalk .number, pre .constant, pre .class .title,
-	pre .parent, pre .haskell .label { color: #b58900; }
-	pre .preprocessor, pre .pi, pre .shebang, pre .symbol,
-	pre .diff .change, pre .special, pre .keymethods, pre .attr_selector, pre .important, pre .subst, pre .cdata { color: #cb4b16; }
-	pre .deletion { color: #dc322f; }
-	pre .tex .formula { background: #eee8d5; }
-	pre .comment:hover {background-color: inherit;box-shadow: none;}
+pre .comment, pre .template_comment, pre .diff .header, pre .doctype, pre .lisp .string, pre .javadoc { padding: 0; margin: 0; border:none; box-shadow: none; background-color: inherit; color: #93a1a1; font-style: italic; }
+pre .keyword, pre .css .rule .keyword, pre .winutils, pre .javascript .title, pre .method, pre .addition, pre .css .tag, pre .lisp .title { color: #859900; }
+pre .number, pre .command, pre .string, pre .tag .value, pre .phpdoc, pre .tex .formula, pre .regexp, pre .hexcolor { color: #2aa198; }
+pre .title, pre .localvars, pre .function .title, pre .chunk, pre .decorator,
+pre .builtin, pre .built_in, pre .lisp .title, pre .identifier, pre .title .keymethods, pre .id { color: #268bd2; }
+pre .tag .title, pre .rules .property, pre .django .tag .keyword { font-weight: bold;font-size: 1.08em !important;  }
+pre .attribute, pre .variable, pre .instancevar, pre .lisp .body, pre .smalltalk .number, pre .constant, pre .class .title,
+pre .parent, pre .haskell .label { color: #b58900; }
+pre .preprocessor, pre .pi, pre .shebang, pre .symbol,
+pre .diff .change, pre .special, pre .keymethods, pre .attr_selector, pre .important, pre .subst, pre .cdata { color: #cb4b16; }
+pre .deletion { color: #dc322f; }
+pre .tex .formula { background: #eee8d5; }
+pre .comment:hover {background-color: inherit;box-shadow: none;}
 /*---BB Редактор---*/
 .bb-pane {
   height: 1%; overflow: hidden;
