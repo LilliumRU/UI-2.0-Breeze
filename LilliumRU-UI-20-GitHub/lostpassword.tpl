@@ -1,0 +1,29 @@
+<!-- Версия файла от 2.0-001-020201030-14.1-KDE Breeze 5.20 -->  
+<div id="lostpassword">   
+<div id="lostpassword-title">Восстановить пароль</div>
+<div id="lostpassword-cont">
+
+<table class="tableform">
+<tr>
+<td class="label">Ваш логин или E-Mail на сайте:</td>
+<td><input class="f_input" type="text" name="lostname" /></td>
+</tr>
+[sec_code]<tr>
+<td class="label">Введите код<br />с картинки:<span class="impot">*</span></td>
+<td>
+<div>{code}</div>
+<div><input class="f_input" style="width:154px" maxlength="45" name="sec_code" size="14" /></div>
+</td>
+</tr>[/sec_code]
+[recaptcha]<tr>
+<td class="label">Введите два слова,<br />показанных на изображении:<span class="impot">*</span></td>
+<td><div>{recaptcha}</div></td>
+</tr>[/recaptcha]
+</table>
+    
+</div>
+  
+<div id="lostpassword-footer">
+    <button name="submit" class="buttonn" type="submit">Отправить</button> 
+</div>
+</div>

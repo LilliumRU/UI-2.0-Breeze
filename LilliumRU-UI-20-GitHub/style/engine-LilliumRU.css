@@ -1,0 +1,234 @@
+/* =========== ©  lillium.ru =========== */
+/*--- Загрузчик AJAX ---*/
+#loading-layer { background: #000; padding: 20px; text-align: center; color: #fff; border-radius: 2px }
+/* --- Оформление календаря --- */
+.calendar { width: 100%; text-align: center; color: #3b4045;  } /*цвет календаря */ 
+.calendar tr td, .calendar tr th {  padding: 3px; }
+.calendar tr td a {color: #3daee9;  font-weight: bold; } /*день публикация */ 
+.calendar tr td {  padding: 5px 3px; }
+.calendar tr td.weekday {  color: #3daee9; font-style: italic; } /*выходные */ 
+.calendar tr th { 
+    background-color: #4d565d; 
+    color: #eff0f1; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+}/* title */
+.calendar tr th.weekday {  background-color: #3daee9; color: #eff0f1; font-style: italic;} /* title */
+.calendar tr th.monthselect { background-color: #eff0f1; color: #3b4045; padding-bottom: 15px; } /* месяц */
+.calendar tr th.monthselect a { color: #3daee9; } /* месяц hover */
+.day-current {  
+    color: #3daee9;
+    border: 2px solid #3daee9; /* Параметры границы */
+} /* Текущий день */
+/*---Облако тегов---*/
+.clouds_xsmall {    font-size: 1em;}
+.clouds_small {    font-size: 1.1em;}
+.clouds_medium {    font-size: 1.2em;    font-weight: bold;}
+.clouds_large {    font-size: 1.5em;}
+.clouds_xlarge {    font-size: 1.7em;}
+
+
+
+
+
+		.story_tools > .rate { float: left; }
+		.story_tools .rate_stars { margin-top: 6px; }
+
+		.rate_like > a, .rate_like-dislike {
+			float: left;
+			height: 22px; line-height: 22px;
+			padding: 6px 12px;
+			border: 1px solid #eaeaea;
+			border-radius: 18px;
+			text-decoration: none !important;
+			font-weight: bold;
+			color: #919191;
+			-webkit-transition: all ease .2s; transition: all ease .2s;
+		}
+		.rate_like > a:hover { border-color: #3394e6; color: #3394e6; }
+		.rate_like .icon { width: 16px; height: 15px; margin: -.2em .3em 0 0; }
+
+		.rate_like-dislike > a {
+			display: inline-block;
+			width: 22px; height: 22px;
+			text-align: center;
+		}
+		.rate_like-dislike > a .icon {
+			width: 14px; height: 15px;
+			fill: #787878;
+			vertical-align: middle;
+			margin: -.3em 0 0 0;
+		}
+		.rate_like-dislike > a:hover .icon { fill: #3394e6; }
+		.rate_like-dislike .ratingplus { color: #88c54d; }
+		.rate_like-dislike .ratingminus { color: #e45757; }
+		.rate_like-dislike > span { cursor: default; margin: 0 .3em; }
+
+
+
+/*---Выпадающее меню кнопки редактировать---*/ 
+#dropmenudiv { 
+    padding: 10px 0; 
+    min-width: 140px; 
+    width: auto !important; 
+    opacity: 1 !important; 
+    display: none; 
+    font-size: .9em;		
+    box-shadow: 0 8px 40px -10px rgba(0,0,0,0.3); 
+    border: 1px solid #e6e6e6; 
+    border-color: rgba(0,0,0,0.1); 
+    background-clip: padding-box;
+}
+#dropmenudiv {     background-color: #fff;}
+#dropmenudiv a { 
+    text-decoration: none !important; 
+    color: inherit; 
+    display: block; 
+    padding: 3px 20px; 
+    border: 0 none; 
+    white-space: nowrap; 
+    color: inherit; }
+#dropmenudiv a:hover { background-color: #eeeeef; }
+/* --- Вывод результатов голосования на сайте --- */
+.voteprogress, .pollprogress {
+	overflow: hidden;
+	height: 6px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-top: 6px;
+}
+.voteprogress span, .pollprogress span {
+		text-indent: -9999px;
+		height: 6px;
+		display: block;
+		overflow: hidden;
+		background: #3394e6;
+}
+	.voteprogress .vote2, .pollprogress .poll2 { background-color: #dd514c; }
+	.voteprogress .vote3, .pollprogress .poll3 { background-color: #5eb95e; }
+	.voteprogress .vote4, .pollprogress .poll4 { background-color: #4bb1cf; }
+	.voteprogress .vote5, .pollprogress .poll5 { background-color: #faa732; }
+/* --- Автозаполнение облака тегов --- */
+.ui-autocomplete { position: absolute; cursor: default; }
+* html .ui-autocomplete { width: 1px } /* without this, the menu expands to 100% in IE6 */
+.ui-menu {
+	list-style:none;
+	padding: 2px; margin: 0;
+	float: left;
+	background: #fff 50% bottom repeat-x;
+	border: 1px solid #dedede;
+	color: #353535;
+	}
+	.ui-menu .ui-menu { margin-top: -3px; }
+	.ui-menu .ui-menu-item { margin:0; padding: 0; zoom: 1; float: left; clear: left; width: 100%; }
+	.ui-menu .ui-menu-item a { text-decoration:none; display:block; padding:.2em .4em; line-height:1.5; zoom:1; }
+	.ui-menu .ui-menu-item a.ui-state-hover,
+	.ui-menu .ui-menu-item a.ui-state-active { font-weight: normal; margin: -1px; border: 1px solid #a7a7a7; color: #4e4e4e; font-weight: bold; }
+/*---Подсветка кода в теге [code]---*/
+pre code { display: block; padding: 0.5em; background: #f9fafa; border: 1px solid #dce7e7; overflow:auto; white-space: pre; }
+pre .comment, pre .template_comment, pre .diff .header, pre .doctype, pre .lisp .string, pre .javadoc { padding: 0; margin: 0; border:none; box-shadow: none; background-color: inherit; color: #93a1a1; font-style: italic; }
+pre .keyword, pre .css .rule .keyword, pre .winutils, pre .javascript .title, pre .method, pre .addition, pre .css .tag, pre .lisp .title { color: #859900; }
+pre .number, pre .command, pre .string, pre .tag .value, pre .phpdoc, pre .tex .formula, pre .regexp, pre .hexcolor { color: #2aa198; }
+pre .title, pre .localvars, pre .function .title, pre .chunk, pre .decorator,
+pre .builtin, pre .built_in, pre .lisp .title, pre .identifier, pre .title .keymethods, pre .id { color: #268bd2; }
+pre .tag .title, pre .rules .property, pre .django .tag .keyword { font-weight: bold;font-size: 1.08em !important;  }
+pre .attribute, pre .variable, pre .instancevar, pre .lisp .body, pre .smalltalk .number, pre .constant, pre .class .title,
+pre .parent, pre .haskell .label { color: #b58900; }
+pre .preprocessor, pre .pi, pre .shebang, pre .symbol,
+pre .diff .change, pre .special, pre .keymethods, pre .attr_selector, pre .important, pre .subst, pre .cdata { color: #cb4b16; }
+pre .deletion { color: #dc322f; }
+pre .tex .formula { background: #eee8d5; }
+pre .comment:hover {background-color: inherit;box-shadow: none;}
+/*---BB Редактор---*/
+.bb-pane {
+  height: 1%; overflow: hidden;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin: 0;
+  height: auto !important;
+  text-decoration:none;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#FBFBFB), to(#EAEAEA));
+  background-image: -webkit-linear-gradient(top, #FBFBFB, 0%, #EAEAEA, 100%);
+  background-image: -moz-linear-gradient(top, #FBFBFB 0%, #EAEAEA 100%);
+  background-image: linear-gradient(to bottom, #FBFBFB 0%, #EAEAEA 100%);
+  background-repeat: repeat-x;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -khtml-border-bottom-right-radius: 0px; 
+  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -khtml-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top:1px solid #d7d7d7;
+  border-left:1px solid #d7d7d7;
+  border-right:1px solid #d7d7d7;
+  box-shadow: none !important;
+}
+.bb-pane>b {
+    margin-top: 5px;
+    margin-left: 0;
+	vertical-align: middle;
+}
+.bb-pane .bb-btn + .bb-btn,.bb-pane .bb-btn + .bb-pane,.bb-pane .bb-pane + .bb-btn,.bb-pane .bb-pane + .bb-pane {
+    margin-left:-1px;
+}
+.bb-btn {
+	display: inline-block; overflow: hidden; float: left;
+	padding: 4px 10px;
+    border: 1px solid #d4d4d4;
+    -webkit-box-shadow: inset 0 1px 2px white;
+    -moz-box-shadow: inset 0 1px 2px white;
+    box-shadow: inset 0 1px 2px white;
+    background-repeat: repeat-x;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, color-stop(0%, #fdfdfd), color-stop(100%, #e9e9e9));
+    background-image: -webkit-linear-gradient(top, #fdfdfd, 0%, #e9e9e9, 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd, 0%, #e9e9e9, 100%);
+    background-image: linear-gradient(to bottom, #fdfdfd 0%, #e9e9e9  100%);
+
+}
+.bb-btn:hover {
+      background: #e6e6e6;
+      background-repeat: repeat-x;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fdfdfd), color-stop(100%, #e6e6e6));
+      background-image: -webkit-linear-gradient(top, #fdfdfd, 0%, #e6e6e6, 100%);
+      background-image: -moz-linear-gradient(top, #fdfdfd, 0%, #e6e6e6, 100%);
+      background-image: -o-linear-gradient(top, #fdfdfd, 0%, #e6e6e6, 100%);
+      background-image: linear-gradient(to bottom, #fdfdfd 0%, #e6e6e6 100%);
+      -webkit-transition: box-shadow 0.05s ease-in-out;
+      -moz-transition: box-shadow 0.05s ease-in-out;
+      -o-transition: box-shadow 0.05s ease-in-out;
+      transition: box-shadow 0.05s ease-in-out;
+}    
+.bb-btn:active {
+      background: #f3f3f3;
+      border-color: #cfcfcf;
+      -webkit-box-shadow: 0 0 5px #f3f3f3 inset;
+      -moz-box-shadow: 0 0 5px #f3f3f3 inset;
+      box-shadow: 0 0 5px #f3f3f3 inset;
+}
+.bb-editor textarea { 
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    padding: 7px; border: 1px solid #d7d7d7; width: 100%; -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition:border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition:border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	margin-top: -1px;
+	outline: none;
+}
+.bb-editor textarea:focus{
+		border-color: #d7d7d7 !important;
+}
+/*---Смайлы---*/
+.emoji {
+    border: none;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+}
+.native-emoji {
+    font-size: 1.3em;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'NotoColorEmoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
+}
